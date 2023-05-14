@@ -23,10 +23,11 @@ namespace ExercicioLive
                     CadastroId = i,
                     Funcao = (TipoFuncao)num,
                     Nome = $"Nome {i}",
-                    Salario = 1000m * num2
+                    Salario = 1000m * num2,
+                    
+
                 };
                 lista.Add(cad);
-
                // Console.WriteLine($"[{i}] - Nome: {cad.Nome} - Sal: {cad.Salario} - Função: {cad.Funcao}");
 
                 

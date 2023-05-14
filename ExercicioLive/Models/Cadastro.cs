@@ -11,6 +11,9 @@ namespace ExercicioLive.Models
 
         public string Nome { get; set; }
 
-        public decimal Salario { get; set; }
+        public decimal Salario {  get;  set; }
+        
+
+        public decimal SalarioEmDolar { get { return Salario * 5; } }
     }
 }
